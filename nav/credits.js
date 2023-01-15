@@ -28,6 +28,6 @@ function unBold() {
 
 function goBack() {
 
-    location.replace("/nav/index.html");
+    changePage("/nav/index.html");
 
 }

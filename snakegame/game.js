@@ -81,12 +81,12 @@ function checkDeath() {
 
 function reactionPortal() {
 
-  location.replace("/reaction/reaction.html");
+  changePage("/reaction/reaction.html");
   
   }
   
   function mainNavPortal() {
   
-  location.replace("/nav/index.html");
+    changePage("/nav/index.html");
   
   }

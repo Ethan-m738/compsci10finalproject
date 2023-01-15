@@ -114,12 +114,12 @@ function draw() {
 
 function snakePortal() {
 
-    location.replace("/snakegame/snake.html");
+    changePage("/snakegame/snake.html");
 
 }
 
 function mainNavPortal() {
 
-    location.replace("/nav/index.html");
+    changePage("/nav/index.html");
 
 }

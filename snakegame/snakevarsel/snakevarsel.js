@@ -80,7 +80,7 @@ function main() {
 
         function startSnake() {
 
-            location.replace("../snake.html");
+            changePage("../snake.html");
 
         }
 
@@ -102,7 +102,7 @@ function main() {
 
         function returnHome() {
 
-            location.replace("/nav/index.html");
+            changePage("/nav/index.html");
 
         }
 
