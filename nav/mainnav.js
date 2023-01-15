@@ -176,7 +176,8 @@ function startRandom() {
 
 function startCredits() {
 
-    location.replace("/nav/credits.html");
+    //location.replace("/nav/credits.html");
+    changePage("/nav/credits.html");
     
 }
 
