@@ -1,5 +1,7 @@
 "use strict";
 
+import { changePage } from '../../common.js';
+
 let expansionRate = localStorage.getItem("expansionRate") ? localStorage.getItem("expansionRate") : 5;
 
 localStorage.setItem("expansionRate", expansionRate);

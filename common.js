@@ -1,4 +1,4 @@
-function changePage(pageName){
+export function changePage(pageName){
 
     if (location.href.includes("github.io")) {
 

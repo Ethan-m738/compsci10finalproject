@@ -1,6 +1,7 @@
 import { update as updateSnake, draw as drawSnake, getSnakeHead, snakeIntersection } from './snake.js';
 import { update as updateFood, draw as drawFood } from './food.js';
 import { outsideGrid } from './grid.js';
+import { changePage } from '../common.js';
 
 let gameSpeed = localStorage.getItem("gameSpeed");
 
@@ -27,7 +28,7 @@ function main(currentTime) {
         
     if(confirm("Click OK to restart.\nClick Cancel to end game.") == true) {
 
-        window.location.reload();
+        changePage("/snakegame/snakevarsel/snakevarsel.html");
 
     }
 

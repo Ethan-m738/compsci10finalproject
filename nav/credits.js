@@ -1,5 +1,7 @@
 "use strict";
 
+import { changePage } from "../common.js";
+
 let exitBox = document.getElementById("exit");
 
 let exitBoxText = document.getElementById("exitText");

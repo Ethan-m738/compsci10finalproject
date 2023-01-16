@@ -2,7 +2,8 @@
 
 import { update as updateRandom, draw as drawRandom, CHANCE, endGame, reactionStart } from './randomizer.js';
 import { update as updateClick, draw as drawClick, gameStart, earlyClick, trueGameStart } from './click.js';
-import { update as updateTimer, draw as drawTimer } from './timer.js'
+import { update as updateTimer, draw as drawTimer } from './timer.js';
+import { changePage } from "../common.js";
 
 let lastRenderTime = 0;
 
@@ -114,7 +115,7 @@ function draw() {
 
 function snakePortal() {
 
-    changePage("/snakegame/snake.html");
+    changePage("/snakegame/snakevarsel/snakevarsel.html");
 
 }
 

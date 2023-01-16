@@ -1,5 +1,7 @@
 "use strict";
 
+import { changePage } from "../common.js";
+
 let background = document.getElementById("background");
 
 let titleBox = document.getElementById("titleBox");
@@ -162,13 +164,13 @@ function startRandom() {
 
     if (ran >= 5) {
 
-        location.replace("/reaction/reaction.html");
+        changePage("/reaction/reaction.html");
 
     }
 
     else if (ran < 5) {
 
-        location.replace("/snakegame/snake.html");
+        changePage("/snakegame/snakevarsel/snakevarsel.html");
 
     }
 
@@ -176,19 +178,18 @@ function startRandom() {
 
 function startCredits() {
 
-    //location.replace("/nav/credits.html");
     changePage("/nav/credits.html");
     
 }
 
 function snakePortal() {
 
-    location.replace("/snakegame/snake.html");
+    changePage("/snakegame/snakevarsel/snakevarsel.html");
 
 }
 
 function reactionPortal() {
 
-    location.replace("/reaction/reaction.html");
+    changePage("/reaction/reaction.html");
 
 }
