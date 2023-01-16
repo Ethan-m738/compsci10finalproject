@@ -82,7 +82,7 @@ function main() {
 
         function startSnake() {
 
-            changePage("../snake.html");
+            changePage("/snakegame/snake.html");
 
         }
 
