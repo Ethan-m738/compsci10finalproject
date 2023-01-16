@@ -7,7 +7,7 @@ import { changePage } from "../common.js";
 
 let lastRenderTime = 0;
 
-const TICKS_PER_SECOND = 1;
+const TICKS_PER_SECOND = 100;
 
 const CLICK_BOX = document.getElementById("click-box");
 

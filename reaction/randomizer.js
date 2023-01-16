@@ -2,7 +2,7 @@
 
 import { gameStart, endSignal } from "./click.js";
 
-export const CHANCE = 20;
+export const CHANCE = 1;
 
 export let endGame = false;
 

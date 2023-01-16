@@ -36,7 +36,7 @@ export function update() {
 
                 hasEndingTime = true;
 
-                printTime = endingTime - startingTime - 999;
+                printTime = endingTime - startingTime;
 
                 trueEnd = true;
 
