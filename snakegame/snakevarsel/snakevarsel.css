@@ -67,9 +67,26 @@
 
 }
 
+#middleBox {
+
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#instruction {
+
+    font-size: 3vw;
+
+}
+
 #bottomBox {
 
-    height: 60vh;
+    height: 30vh;
     width: 100vw;
     display: flex;
     color: white;
